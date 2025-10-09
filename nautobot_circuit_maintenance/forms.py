@@ -5,6 +5,7 @@
 """Forms for Circuit Maintenance."""
 
 from django import forms
+from django_filters.widgets import BooleanWidget
 from nautobot.apps.forms import (
     BootstrapMixin,
 )
